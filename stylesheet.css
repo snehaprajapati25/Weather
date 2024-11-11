@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    font-size: 16px;
 }
 
 body {
@@ -42,21 +43,26 @@ small {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 90vw;
+    height: 90vh;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: flex-start;
     flex-direction: column;
     padding: 2em, 3em, 4em, 3em;
-
+    overflow: hidden;
 }
 
-.container>div {
+.container > div {
     display: flex;
-    margin: 50% 10%;
-    width: 40%;
-    height: 10rem;
+    font-size: medium;
+    align-items: flex-end;
+    justify-content: flex-start;
+    margin-left: 5rem;
+    margin-top: 29%;
+    width: 50%;
+    max-width: 90%;
+    height: auto;
+    padding: 1rem;
 }
 
 .brand {
@@ -191,6 +197,7 @@ tr {
         position: relative;
         width: 100%;
         top: initial;
+        
     }
 
     .container>div {
@@ -370,6 +377,8 @@ tr {
 
     }
 }
+
+
 
 footer {
     font-size: x-small;
